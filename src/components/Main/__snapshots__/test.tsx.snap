@@ -2,27 +2,12 @@
 
 exports[`<Main /> should render the heading 1`] = `
 <main
-  class="styles__Wrapper-sc-1cs6c8-0 iAwbZK"
+  class="styles__Wrapper-sc-9hcj8x-0 gbluZx"
 >
-  <img
-    alt="Atom image and React Avancado written beside"
-    class="styles__Logo-sc-1cs6c8-1 MCbTX"
-    src="/img/logo.svg"
-  />
   <h1
-    class="styles__Title-sc-1cs6c8-2 VHROD"
+    class="styles__Title-sc-9hcj8x-1 SbXcC"
   >
-    React Avançado
+    React Next Boilerplate
   </h1>
-  <h2
-    class="styles__Description-sc-1cs6c8-3 jpDtNf"
-  >
-    Typescript, ReatJS, Next JS and Styled Components
-  </h2>
-  <img
-    alt="A programmer sitting in front of a computer"
-    class="styles__Illustration-sc-1cs6c8-4 eNveha"
-    src="/img/hero-illustration.svg"
-  />
 </main>
 `;

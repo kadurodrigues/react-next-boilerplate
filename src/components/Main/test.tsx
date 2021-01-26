@@ -4,16 +4,16 @@ import Main from './index'
 describe('<Main />', () => {
   it('should render the heading', () => {
     const { container } = render(<Main />)
-    const headingFound = screen.getByRole('heading', {
-      name: /React Avançado/i
+    const heading = screen.getByRole('heading', {
+      name: /React Next Boilerplate/i
     })
 
-    expect(headingFound).toBeInTheDocument()
+    expect(heading).toBeInTheDocument()
     expect(container.firstChild).toMatchSnapshot()
   })
 
-  it('should render with the correct background color', () => {
+  it('should render with the correct background-color', () => {
     const { container } = render(<Main />)
-    expect(container.firstChild).toHaveStyle({ 'background-color': '#06092b' })
+    expect(container.firstChild).toHaveStyle({ 'background-color': '#d9dbe6' })
   })
 })

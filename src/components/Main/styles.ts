@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.main`
-  background-color: #06092b;
+  background-color: #d9dbe6;
   color: #fff;
   width: 100%;
   height: 100%;
@@ -12,22 +12,7 @@ export const Wrapper = styled.main`
   align-items: center;
   justify-content: center;
 `
-
-export const Logo = styled.img`
-  width: 25rem;
-  margin-bottom: 4rem;
-`
-
 export const Title = styled.h1`
   font-size: 2.5rem;
-`
-
-export const Description = styled.h2`
-  font-size: 2.5rem;
-  font-weight: 400;
-`
-
-export const Illustration = styled.img`
-  margin-top: 4rem;
-  width: min(30rem, 100%);
+  color: #114eff;
 `
